@@ -1,0 +1,118 @@
+.divisional_manager .rst__rowContents {
+  background-color: #425a9c;
+  color: #fff;
+}
+
+.lead_supervisor .rst__rowContents {
+  background-color: #3caea3;
+  color: #fff;
+}
+
+.rst__rowContents {
+  min-width: 405px;
+}
+
+.rst__moveHandle {
+  background-color: #0055a5;
+}
+
+.supervisor .rst__rowContents {
+  background-color: #1679da;
+  color: #fff;
+}
+
+.foreman .rst__rowContents {
+  background-color: #32d7e1;
+  color: #fff;
+}
+
+.restricted_foreman_list .rst__rowContents {
+  background-color: #32d7e1;
+  color: #fff;
+}
+
+.pump_operator .rst__rowContents {
+  background-color: #97e2d1;
+  color: #fff;
+}
+
+/* Solo crew styling */
+.crew .rst__rowContents,
+.solo_cm .rst__rowContents {
+  background-color: #16db93;
+  color: #fff;
+}
+
+.solo_cm .rst__rowContents {
+  width: 560px;
+}
+
+.updateButton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+span.ant-select-selection-item {
+  font-size: 0.7rem;
+}
+
+.dropdownlistSize {
+  font-size: 10px;
+}
+
+.nodeTitle {
+  margin-top: 5px;
+  margin-left: 5px;
+  overflow: hidden;
+  width: 120px;
+  text-overflow: ellipsis;
+}
+
+.dropdownText {
+  white-space: normal;
+  color: #000;
+}
+
+.loadingContainer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* atnd select overrides */
+.ant-select-multiple .ant-select-selection-placeholder {
+  color: grey;
+  font-size: 12px;
+}
+
+.ant-select-multiple .ant-select-arrow {
+  font-size: 28px;
+  color: grey;
+}
+
+/* modal styles */
+.modal-heading {
+  font-size: 17px;
+  padding: 10px;
+}
+
+.modal-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* add skill btn */
+.add-skill-btn {
+  color: gray;
+  background-color: #fff;
+  font-size: 12px;
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
